@@ -5,7 +5,7 @@ const mysql = require('mysql');
 const connection = mysql.createConnection({
   host     : 'localhost',
   user     : 'root',
-  password : '$KUBETEST_DB_PASSWORD',
+  password : process.env.KUBETEST_DB_PASSWORD,
   database : 'kube_test'
 });
 
