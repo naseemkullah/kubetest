@@ -1,0 +1,8 @@
+# To run this project
+You need to have NodeJS 8 and MySQL installed
+
+1. Import `kube_test.sql`
+2. `npm install` will install the dependencies
+3. `npm start` will launch the local server
+
+Then you can point your browser to `http://localhost:3000` 

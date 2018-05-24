@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title} from #{ip}
+
+  if access
+    p This page was accessed #{access.id} time(s).
+    p Last accessed by #{access.from} on #{access.date}
+  else
+    p This page was not accessed yet
