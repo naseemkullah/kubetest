@@ -1,3 +1,4 @@
 .circleci
 kube_tes.sql
-deployment.yaml
+kubetest-deployment.yaml
+kubetest-ingress.yaml
