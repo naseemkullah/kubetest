@@ -1,0 +1,10 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: kubetest-ingress
+  annotations:
+    kubernetes.io/ingress.global-static-ip-name: kubetest-static-ip #reserved in advance
+spec:
+  backend:
+    serviceName: kubetest
+    servicePort: 3000
