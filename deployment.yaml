@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: kubetest
-          image: nullah/kubetest:0.1.6
+          image: nullah/kubetest:0.1.7
           ports:
             - containerPort: 3000
           env:
