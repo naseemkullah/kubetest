@@ -1,3 +1,3 @@
-.circleli
+.circleci
 kube_tes.sql
 deployment.yaml
