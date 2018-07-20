@@ -1,4 +1,3 @@
-.circleci
-kube_tes.sql
-kubetest-deployment.yaml
-kubetest-ingress.yaml
+*
+!package.json
+!*.js
