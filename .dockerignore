@@ -1,3 +1,6 @@
 *
 !package.json
 !*.js
+!bin
+!routes
+!views
